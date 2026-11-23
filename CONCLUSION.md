@@ -52,7 +52,7 @@ indicator in one year". Would you ship the fixed workflow or the agent? Use the 
 number of model calls, the tokens and the time you measured in Part 1. Then say in one sentence
 what kind of question would make you choose the other one.
 
-for monthly rankings i would choose fixed workflow it gave 13 of 15 correct answers compared 9 of 15 usinig sample agent it also made 15 call instead 26 used 3852 tokens instead 19835 and 15,7 second instead 49,1 second workflow accurate faster cheaper for rankings tasks for open question require using some tools for flexible and hard analysis i would choose agent
+for monthly rankings i would choose fixed workflow it gave 13 of 15 correct answers compared 9 of 15 usinig sample agent it also made 15 call instead 26 used 3852 tokens instead 19835 and 15,4 second instead 47,8 second workflow accurate faster cheaper for rankings tasks for open question require using some tools for flexible and hard analysis i would choose agent
 
 ---
 

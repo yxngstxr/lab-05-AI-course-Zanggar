@@ -41,7 +41,9 @@ Pick one question that the full harness (layer 3) still gets wrong or refuses. G
 the model do instead? Name one thing you would add to the harness, and what it would cost
 (extra model calls, tokens, time, or a new way to fail).
 
-question 11 is still wrong even using full setup tool gave correct result but model answered Almaty REgion when answer was Almaty city error happened when model read tool result i would add oe more check it would check if chosen region had the highest or the lowest value in the result but this needs more work and maybe it takes more time in addition more tokens 
+q11 is still wrong even using full setup tool gave correct result but model answered Almaty Region when answer was Turkistan lowest 929.2 error happened when model read tool result i would add one more check it would check if chosen region had the highest or the lowest value in the result it is simple code without new calls model if check reject answer and model will asnwer again will add calls and tokens new method for mistake code can not correct understand what question is about highest or lowest 
+model makes mistake step 3 in trace list come from highest to lowest and model take region from starts where value is high but question was lowest 
+layer3 checks number in answer was name of region without number 
 
 ## 3. Workflow or agent for the monthly ranking?
 

@@ -21,7 +21,18 @@ Give the numbers before -> after for that layer (correct / wrong / no answer, ou
 whether it changed what the agent *can do* or only what it *admits*. If no layer changed the
 number of correct answers, say so and explain what the layers did change instead.
 
-the biggest improve for all results it was layer 3 agent without addition give 16 correct answer 4 cons answer and 4 without reason and with full set function layer 3 give 18 correct answer 4 cons and 2 without reason and counts of correct answer 2x  a counts of cons answer -2x and layer 3 changed agent approach to answer checking it improved reliability but not errors
+configuration - correct/wrong/no answer
+bare - 16/4/4
+layer1 - 18/6/0
+layer2 - 18/6/0
+layer3 - 18/4/2 
+
+what follow from this:
+Layer1 changed more correct answer became on 2 more q23, q24 earlier 
+layer1 was falling on first tool's mistake and now model can see mistake and improve this is change what agent can do 
+and more worng ananswer became more wrong answers were 4 and now become 6 earlier on alias question model just falls no answer and then model continues to answer on part of question is correct and part of question wrong it is important because layer helped but not free
+Layer2 changed nothing digit is the same with layer1 
+Layer3 correct answer is no more but layer3 changed 2 wrogn answer to no answer this is change in what agent recognizes it says about agent honestly doesnt answer instead error 
 
 ## 2. One failure the full harness did not fix
 
